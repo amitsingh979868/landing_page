@@ -1,0 +1,58 @@
+.header{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    z-index: 999;
+    background-color: black;
+}
+.header a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+#products h2{
+    font-size: 20px;
+    margin-top: 7px;
+    text-align: center;
+    font-weight: lighter;
+}
+.hot-products{
+    cursor: pointer;
+}
+
+.hot-products h4{
+    font-size: 20px;
+    
+}
+.hot-products h2:hover{
+    text-decoration: underline;
+    color: blue;
+    
+}
+
+#banner{
+    height: 50vh;
+    width: 100%;
+    background-image: url("./images/banner-1.jpg");
+    background-size: cover;
+    background-position: center;
+    
+}
+#menu{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+@media (max-width:768px) {
+    #menu{
+        display: none;
+        
+    }
+}
